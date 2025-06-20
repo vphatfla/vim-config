@@ -1,5 +1,10 @@
 "CUSTOM CONFIGURATION
 
+" Auto indent for text files
+set autoindent      " Maintain indent of current line
+set smartindent     " Smart autoindenting when starting a new line
+filetype plugin indent on  " Load filetype-specific indent files
+set softtabstop=4
 " Short-cut for removing trailing whitespace
 command! RemoveWhite :%s/\s\+$//e
 " Use y for copying
